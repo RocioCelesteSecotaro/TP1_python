@@ -7,3 +7,4 @@ while True:
     else:
        print("El número es menor a 0")
        print("ingresalo nuevamente")
+        print(f"El numero ingresado fue {numero}")
