@@ -1,2 +1,2 @@
-nombre = "rocio"
-print("bienvenido "+ nombre)
+nombre = "Rocio"
+print("Bienvenid@ "+ nombre+ "!")

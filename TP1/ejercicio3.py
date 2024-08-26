@@ -1,5 +1,5 @@
-numero1= 25
-numero2= 13
+numero1= 14
+numero2= 3
 
 suma= numero1+numero2
 resta= numero1 - numero2
