@@ -9,7 +9,7 @@ cont = int(0)
 
 if numero > 1: 
     for i in range(1,numero+1):
-        if numero % 1 ==0:
+        if numero % i ==0:
             cont = cont + 1
 
     if cont == 2:
