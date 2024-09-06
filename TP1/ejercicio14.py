@@ -25,21 +25,26 @@
 ##Numero Ingresado: 63
 #Respuesta: Correcto, numero encontrado, cantidad de intentos 5
 
+
 import random
 numal= int(random.randint(0, 100))
 
+cont = 0
 
 while True:
     numnuev= int(input("ingrese un numero: "))
 
     if numnuev == numal:
         print("ADIVINASTE!!!!")
+        print(f"Usaste {cont} intentos")
         break
     elif numnuev < numal:
         print("El numero es muy bajo")
+        cont += 1
 
     elif numal < numnuev:
         print("El numero es muy alto")
+        cont += 1
 
 
 
