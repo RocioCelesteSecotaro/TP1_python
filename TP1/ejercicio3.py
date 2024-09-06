@@ -1,3 +1,5 @@
+#declara dos variables numericas (con el valor que desees), muestra por consola la suma,resta, multiplicacion, division 
+# y modulo(resto de la division)
 numero1= 14
 numero2= 3
 
